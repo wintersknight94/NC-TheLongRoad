@@ -1,6 +1,6 @@
-# thelowerroad
+# The Long Road of NodeCore
 
-The Lower Road (a Minetest Mod)
+The Long Road (a NodeCore Mod)
 ====================
 
 Adds a long road from -Z to +Z to the world, during world-generation.
@@ -18,10 +18,9 @@ Version: 1.2
 
 License: The MIT License (MIT)
 
-Dependencies: default, stairs, farming (found in minetest_game)
-Optional Dependencies: lualandmg?
+Dependencies: nc_api_all, nc_terrain, nc_concrete 
 
-Download from: https://github.com/Distributed-DeadLock/thelowerroad
+Download original for MTG from: https://github.com/Distributed-DeadLock/thelowerroad
 
 Compatibility with Mapgens:
 generally works with all mapgens which provide a heightmap via minetest.get_mapgen_object
